@@ -1,0 +1,50 @@
+/*Chapter 2 Part 1*/
+
+.horizontal {
+	float: left;
+	list-style: none;
+	margin: 10px;
+}
+
+.sub-level {
+	background: #ccc;
+}
+
+a {
+	color: #00c;
+}
+
+a.mailto {
+	background: url(images/email.png) no-repeat right top;
+	padding-right: 18px;
+}
+
+a.pdflink {
+	background: url(images/pdf.png) no-repeat right top;
+	padding-right: 18px;
+}
+a.henrylink {
+	background-color: #fff;
+	padding: 2px;
+	border: 1px solid #000;
+}
+
+/*Chapter 2 Part 2*/
+
+tr {
+	background-color: #fff;
+}
+
+.alt {
+	background-color: #ccc;
+}
+
+.highlight {
+	font-weight: bold; 
+	font-style: italic;
+}
+
+a.external {
+	background: #fff url(images/external.png) no-repeat 100% 2px;
+	padding-right: 16px;
+}
