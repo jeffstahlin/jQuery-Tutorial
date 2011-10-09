@@ -1,0 +1,16 @@
+tr {
+	background-color: #fff;
+}
+
+.alt {
+	background-color: #ccc;
+}
+
+.highlight {
+	font-weight: bold;
+	font-style: italic;
+}
+
+.external {
+	color: red;
+}
