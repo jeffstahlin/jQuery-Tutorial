@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://feeds.feedburner.com/~d/styles/rss2full.xsl" type="text/xsl" media="screen"?><?xml-stylesheet href="http://feeds.feedburner.com/~d/styles/itemcontent.css" type="text/css" media="screen"?><!-- generator="wordpress/2.0" --><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+
+<channel>
+	<title>jQuery Blog</title>
+	<link>http://jquery.com/blog</link>
+	<description>New Wave Javascript.</description>
+	<pubDate>Wed, 01 Oct 2008 18:10:13 +0000</pubDate>
+	<generator>http://wordpress.org/?v=2.0</generator>
+	<language>en</language>
+			<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" href="http://feeds.feedburner.com/jquery" type="application/rss+xml" /><item>
+		<title>jQuery, Microsoft, and Nokia</title>
+		<link>http://jquery.com/blog/2008/09/28/jquery-microsoft-nokia/</link>
+		<comments>http://jquery.com/blog/2008/09/28/jquery-microsoft-nokia/#comments</comments>
+		<pubDate>Sun, 28 Sep 2008 18:01:55 +0000</pubDate>
+		<dc:creator>John Resig</dc:creator>
+		
+	<category>Uncategorized</category>
+		<guid isPermaLink="false">http://jquery.com/blog/2008/09/28/jquery-microsoft-nokia/</guid>
+		<description><![CDATA[We have two pieces of fantastic, albeit serendipitous, news today: Both Microsoft and Nokia are taking the major step of adopting jQuery as part of their official application development platform.]]></description>
+			<content:encoded><![CDATA[<p>We have two pieces of fantastic, albeit serendipitous, news today: Both Microsoft and Nokia are taking the major step of adopting jQuery as part of their official application development platform. Not only will they be using it for their corporate development but they will be providing it as a core piece of their platform for developers to build with.</p>
+<p>Microsoft is looking to make jQuery part of their official development platform.  Their JavaScript offering today includes the <a href="http://www.asp.net/ajax/">ASP.NET Ajax Framework</a> and they&#8217;re looking to expand it with the use of jQuery. This means that jQuery will be distributed with Visual Studio (which will include jQuery intellisense, snippets, examples, and documentation).</p>
+<p>Additionally Microsoft will be developing additional controls, or widgets, to run on top of jQuery that will be easily deployable within your .NET applications. jQuery helpers will also be included in the server-side portion of .NET development (in addition to the existing helpers) providing complementary functions to existing ASP.NET AJAX capabilities.</p>
+<p>Nokia is looking to use jQuery to develop applications for their WebKit-based <a href="http://www.s60.com/life/thisiss60/s60indetail/technologiesandfeatures/webruntime">Web Run-Time</a>. The run-time is a stripped-down browser rendering engine that allows for easy, but powerful, application development. This means that jQuery will be distributed on all Nokia phones that include the web run-time.</p>
+<p>To start Nokia will be moving a number of their applications to work on the run-time (such as Maps) and building them using jQuery. jQuery will become part of their <a href="http://www.s60.com/life/thisiss60/s60indetail/technologiesandfeatures/webruntime/webruntimedetail">widget development platform</a>, meaning that any developer will be able to use jQuery in the construction of widgets for Nokia phones.</p>
+<p>Microsoft and Nokia aren&#8217;t looking to make any modifications to jQuery (both in the form of code or licensing) - they simply wish to promote its use as-is. They&#8217;ve recognized its position as the most popular JavaScript library and wish to see its growth and popularity continue to flourish.</p>
+<p>In fact their developers will begin to help contribute back to the jQuery project by proposing patches, submitting test cases, and providing comprehensive testing against their runtimes. As with any contribution that comes in to the jQuery project it&#8217;ll be closely analyzed, reviewed, and accepted or rejected, based upon its merits, by the jQuery development team - no free ride will be given.</p>
+<p>A significant level of testing will be added to the project in this respect. The jQuery test suite is already integrated into the test suites of Mozilla and Opera and this move will see a significant level of extra testing being done on Internet Explorer and WebKit - above-and-beyond what is already done by the jQuery team.</p>
+<p>The whole jQuery team is quite excited by these prospects and wishes to take this opportunity to welcome both companies to the jQuery community. It&#8217;s phenomenal to see these two, major, corporations take the large step of using jQuery as a base for their, and their developers, future development. They will join a <a href="http://docs.jquery.com/Sites_Using_jQuery">long list</a> of happy jQuery users, including Google, Intel, IBM, Intuit, Reuters, and many others.</p>
+<p><b>Update:</b> Blogs posts by <a href="http://weblogs.asp.net/scottgu/archive/2008/09/28/jquery-and-microsoft.aspx">Scott Guthrie</a> and <a href="http://www.hanselman.com/blog/jQueryToShipWithASPNETMVCAndVisualStudio.aspx">Scott Hanselman</a>, both at Microsoft, have posts on the subject matter from their perspective.
+</p>
+]]></content:encoded>
+			<wfw:commentRSS>http://jquery.com/blog/2008/09/28/jquery-microsoft-nokia/feed/</wfw:commentRSS>
+		</item>
+		<item>
+		<title>jQuery UI 1.6rc2</title>
+		<link>http://jquery.com/blog/2008/09/19/jquery-ui-16rc2/</link>
+		<comments>http://jquery.com/blog/2008/09/19/jquery-ui-16rc2/#comments</comments>
+		<pubDate>Sat, 20 Sep 2008 00:32:01 +0000</pubDate>
+		<dc:creator>Paul</dc:creator>
+		
+	<category>jQuery UI</category>
+		<guid isPermaLink="false">http://jquery.com/blog/2008/09/19/jquery-ui-16rc2/</guid>
+		<description><![CDATA[Hey everyone,
+I&#8217;m glad to announce that finally, we decided to kick out a release candidate of jQuery UI 1.6. It&#8217;s called rc2, because we pushed out a rc1 too early on Monday, and to everyone who downloaded that one or another early version of 1.6, a upgrade to 1.6rc2 is highly recommended. This is also [...]]]></description>
+			<content:encoded><![CDATA[<p>Hey everyone,</p>
+<p>I&#8217;m glad to announce that finally, we decided to kick out a release candidate of jQuery UI 1.6. It&#8217;s called rc2, because we pushed out a rc1 too early on Monday, and to everyone who downloaded that one or another early version of 1.6, a upgrade to 1.6rc2 is highly recommended. This is also the final version before the real deal, which can be expected to follow in the next days.</p>
+<p>1.6rc2 is mainly a bugfix and stability release, and we made sure again you can read what has changed in our <a href="http://docs.jquery.com/UI/Changelog/1.6">changelog</a> for 1.6, which shows the current state.</p>
+<h3>Download multiple versions, public dev group</h3>
+<p>In addition to all the bugfixes, we also have a couple of new hot things to check out:</p>
+<ul>
+<li><strong>You can now decide wether you want to download the stable or unstable version in the <a href="http://ui.jquery.com/download">download builder</a>.</strong> This is a big one, because for the first time, users have the possibility to decide what to download using the convienient interface.</li>
+<li><strong>The <a href="http://groups.google.com/group/jquery-ui-dev">jquery-ui-dev</a> list has been opened to the public</strong>. This is also a big change, because it means you can now actively participate in the development of jQuery UI, by simply participating in the discussions, and we highly encourage you to do so!</li>
+</ul>
+<h3>New servers</h3>
+<p>Finally, we&#8217;re currently doing a transition to a new, dedicated server for jQuery UI, and all the other jQuery subdomains also receive new servers. This will give the UI homepage and the documentation major performance boosts in the next days.</p>
+<p>Now go to <a href="http://ui.jquery.com/download">http://ui.jquery.com/download</a> and grab jQuery UI 1.6rc2!</p>
+<p>See you,<br />
+Paul Bakaus &#038; the jQuery UI Team
+</p>
+]]></content:encoded>
+			<wfw:commentRSS>http://jquery.com/blog/2008/09/19/jquery-ui-16rc2/feed/</wfw:commentRSS>
+		</item>
+		<item>
+		<title>jQuery Conference 2008 Agenda</title>
+		<link>http://jquery.com/blog/2008/08/31/jquery-conference-2008-agenda/</link>
+		<comments>http://jquery.com/blog/2008/08/31/jquery-conference-2008-agenda/#comments</comments>
+		<pubDate>Mon, 01 Sep 2008 01:00:07 +0000</pubDate>
+		<dc:creator>ReyBango</dc:creator>
+		
+	<category>Uncategorized</category>
+	<category>jQuery</category>
+		<guid isPermaLink="false">http://jquery.com/blog/2008/08/31/jquery-conference-2008-agenda/</guid>
+		<description><![CDATA[The sold-out jQuery Conference 2008, being held in Boston at the MIT Stata Center on September 28th, is nearly upon us. With 13 sessions being delivered by the jQuery team as well as prominent industry experts such as Jonathan Snook, Aza Raskin and Cody Lindley, this is sure to be a stellar event.
+The conference has [...]]]></description>
+			<content:encoded><![CDATA[<p>The sold-out <a href="http://events.jquery.com/">jQuery Conference 2008</a>, being held in Boston at the <a href="http://www.csail.mit.edu/contact/contact.html">MIT Stata Center</a> on September 28th, is nearly upon us. With 13 sessions being delivered by the <a href="http://docs.jquery.com/Contributors">jQuery team</a> as well as prominent industry experts such as <a href="http://snook.ca">Jonathan Snook</a>, <a href="http://www.azarask.in/blog/">Aza Raskin</a> and <a href="http://www.codylindley.com/">Cody Lindley</a>, this is sure to be a stellar event.</p>
+<p>The conference has been broken out into two tracks, Beginner and Advanced, to allow developers of various jQuery expertise to take full advantage of the sessions that will be suit their needs. Below you will find the agenda for the conference. In the interest of sharing information, we wanted to put up the agenda as soon as possible. We will be releasing another page shortly that will provide topic descriptions as well as bios for each of the speakers.</p>
+<h3>Featured Presenters:</h3>
+<div class="clearfix" style="clear: both; padding-bottom: .5em;">
+<h5>John Resig</h5>
+<p>				<img src="http://jquery.com/blog/wp-content/uploads/2008/09/bio_johnresig.jpg" width="76" height="76" alt="John Resig" style="float: left; margin-right: 15px;" /></p>
+<p><strong><a href="http://ejohn.org/">John Resig</a></strong> is the creator and lead developer of the <a href="http://jquery.com/">jQuery JavaScript library</a>. He&#8217;s also a JavaScript Evangelist for the <a href="http://mozilla.com/">Mozilla Corporation</a> and the author of the book <a href="http://jspro.org/">Pro JavaScript Techniques</a>.</p>
+<p>Currently, John is located in Boston, MA. He&#8217;s hard at work on his second book, <a href="http://jsninja.com/">Secrets of the JavaScript Ninja</a>, due in bookstores Late 2008.</p>
+</div>
+<div class="clearfix" style="clear: both; padding-bottom: .5em;">
+<h5>Joern Zaefferer</h5>
+<p>				<img src="http://jquery.com/blog/wp-content/uploads/2008/09/bio_joernzaefferer.jpg" width="76" height="76" alt="Joern Zaefferer" style="float: left; margin-right: 15px;" /></p>
+<p><strong><a href="http://bassistance.de/">Jörn Zaefferer</a></strong> is a member of the core jQuery team. Along his work on jQuery itself, he wrote and maintains several of the most popular jQuery plugins. Jörn Zaefferer works as a consultant for maxence integration technologies GmbH in Cologne, Germany, where he architects and develops Java-based web applications for maxence&#8217;s customers and maxence’s  own products. </p>
+</div>
+<div class="clearfix" style="clear: both; padding-bottom: .5em;">
+<h5>Jonathan Snook</h5>
+<p>				<img src="http://jquery.com/blog/wp-content/uploads/2008/09/bio_jonathansnook.jpg" width="76" height="76" alt="Jonathan Snook" style="float: left; margin-right: 15px;" /></p>
+<p>Web designer and developer, <strong><a href="http://snook.ca/jonathan/">Jonathan Snook</a></strong> moves effortlessly from client-side, front-end work to hardcore server-side challenges, and his fluency in CSS, JavaScript, PHP and MySQL make make him the &#8220;turn-to&#8221; man for many high-profile clients. Coauthor of Accelerated DOM Scripting and The Art and Science of CSS, he writes regularly at his popular blog snook.ca, and for Digital Web and Sitepoint. Jonathan also works with his partners at Sidebar Creative, makers of world-class websites and innovative applications.</p>
+</div>
+<div class="clearfix" style="clear: both; padding-bottom: .5em;">
+<h5>Richard Worth</h5>
+<p>				<img src="http://jquery.com/blog/wp-content/uploads/2008/09/bio_richardworth.jpg" width="76" height="76" alt="Richard Worth" style="float: left; margin-right: 15px;" /></p>
+<p><strong><a href="http://rdworth.org/">Richard D. Worth</a></strong> is a Web developer in the Washington, DC area. He works for Fulcrum IT on web services contracts, primarily for the government. Richard is one of the lead developers of jQuery UI, a component framework built on top of jQuery, designed to make Rich Internet Applications as simple as jQuery has made Ajax. Richard is also a contributing author on dmxzone.com, writing regular beginner and advanced jQuery UI articles, and has been selected as a Technical Reviewer for a book on jQuery UI to be published in the fall.</p>
+</div>
+<div class="clearfix" style="clear: both; padding-bottom: .5em;">
+<h5>Paul Bakaus</h5>
+<p>				<img src="http://jquery.com/blog/wp-content/uploads/2008/09/bio_paulbakaus.jpg" width="76" height="76" alt="Paul Bakaus" style="float: left; margin-right: 15px;" /></p>
+<p><strong><a href="http://www.paulbakaus.com/">Paul Bakaus</a></strong> is a UI architect living in Germany. He&#8217;s the creator and lead of jQuery UI and works for the open source company Liferay in a full-time sponsored position to jQuery UI. He&#8217;s responsible for the overall direction and roadmap of jQuery UI and he enjoys speaking about his user interface work in many places of the world. He&#8217;s also a member of the jQuery core team and takes part in the discussion of the overall direction of the jQuery project. In the past, he was largely responsible for creating the jQuery dimensions plugin (which is now part of the jQuery core) and worked together with Stefan Petre on the rich effects and components library Interface.</p>
+</div>
+<div class="clearfix" style="clear: both; padding-bottom: .5em;">
+<h5>Yehuda Katz</h5>
+<p>				<img src="http://jquery.com/blog/wp-content/uploads/2008/09/bio_yehudakatz.jpg" width="76" height="76" alt="Yehuda Katz" style="float: left; margin-right: 15px;" /></p>
+<p>In addition to being the co-author of jQuery In Action, <strong><a href="http://www.yehudakatz.com/">Yehuda Katz</a></strong> is a contributor to Ruby in Practice and co-author of the upcoming Merb in Action. He is a core contributor to DataMapper and jQuery. Before coming to Engine Yard, he worked for on a construction management tool written in Ruby on Rails and jQuery. Yehuda is a Merb core developer, contributes to Rubinius, and is taking a lead role in the development of Engine Yard&#8217;s new Control Panel.</p>
+</div>
+<div class="clearfix" style="clear: both; padding-bottom: 2em;">
+<h5>Aza Raskin</h5>
+<p>				<img src="http://jquery.com/blog/wp-content/uploads/2008/09/bio_azaraskin.jpg" width="76" height="76" alt="Aza Raskin" style="float: left; margin-right: 15px;" /></p>
+<p><strong><a href="http://www.azarask.in/">Aza Raskin</a></strong> is the founder of Humanized (now part of Mozilla), Songza, and Bloxes. The son of Apple software pioneer Jef Raskin, he brings a keen interest in human interface design to everything he does.</p>
+</div>
+<div class="clearfix" style="clear: both; padding-bottom: .5em;">
+<h5>Karl Swedberg</h5>
+<p>				<img src="http://jquery.com/blog/wp-content/uploads/2008/09/bio_karlswedberg.jpg" width="76" height="76" alt="Karl Swedberg" style="float: left; margin-right: 15px;" /></p>
+<p>After having taught high school English, edited copy for an advertising agency, and owned a coffee house, <strong><a href="http://www.karlswedberg.com/">Karl Swedberg</a></strong> began his career as a web developer three years ago. He now works for Fusionary Media in Grand Rapids, Michigan, where he specializes in client-side scripting and interaction design. Karl is an &#8220;Evangelist&#8221; for the jQuery JavaScript Library and the co-author of two books, Learning jQuery and jQuery Reference Guide.</p>
+</div>
+<div class="clearfix" style="clear: both; padding-bottom: .5em;">
+<h5>Scott Jehl</h5>
+<p>				<img src="http://jquery.com/blog/wp-content/uploads/2008/09/bio_scottjehl.jpg" width="76" height="76" alt="Scott Jehl" style="float: left; margin-right: 15px;" /></p>
+<p><strong><a href="http://scottjehl.com">Scott Jehl</a></strong> is a designer at <a href="http://filamentgroup.com">Filament Group</a>, a Boston, MA studio specializing in web application design and development. At Filament, Scott and his colleagues frequently contribute design and code to the jQuery community, and recently built <a href="http://themeroller.com">ThemeRoller</a>, a theme design application for jQuery UI. Scott leads the design team at jQuery, and runs <a href="http://writemaps.com">WriteMaps</a>, an ajax web application for building visual website sitemaps. He enjoys wake/skate/snowboarding, being outdoors, and spending time with his wife Stephanie and their two cats.</p>
+</div>
+<div class="clearfix" style="clear: both; padding-bottom: .5em;">
+<h5>Jonathan Sharp</h5>
+<p>				<img src="http://jquery.com/blog/wp-content/uploads/2008/09/bio_jonathansharp.jpg" width="76" height="76" alt="Jonathan Sharp" style="float: left; margin-right: 15px;" /></p>
+<p><strong><a href="http://jdsharp.us/">Jonathan Sharp</a></strong> is a standards driven freelance web designer and developer. With experience in both frontend and backend technolgoies he brings value in integration delivering a seamless user experience. Jonathan has also developed a number of jQuery plugins such as jdMenu, jdNewsScroll and positionBy. Prior to freelancing, Jonathan worked for Union Pacific Railroad, CSC and Motorola, Inc. in Chicago after helping found Imprev, Inc. in Bellevue, WA in early 2000. He lives in Nebraska with his wife, Erin, and their daughter Noel. When not working he enjoys spending time with his family, playing with their dogs, and riding off into the sunset on Micah, his draft horse. </p>
+</div>
+<div class="clearfix" style="clear: both; padding-bottom: .5em;">
+<h5>Kevin Hoyt</h5>
+<p>				<img src="http://jquery.com/blog/wp-content/uploads/2008/09/bio_kevinhoyt.jpg" width="76" height="76" alt="Kevin Hoyt" style="float: left; margin-right: 15px;" /></p>
+<p><strong><a href="http://www.kevinhoyt.org/">Kevin Hoyt</a></strong> is a Platform Evangelist with Adobe Systems, Inc. Passionate about engaging user experiences, you&#8217;ll most often find him meeting with customers, speaking at conferences, presenting online seminars, or just enjoying the chance to share ideas and brainstorm with other developers. When not on the road, Kevin enjoys spending time with his family, photography and general aviation. </p>
+</div>
+<div class="clearfix" style="clear: both; padding-bottom: .5em;">
+<h5>Cody Lindley</h5>
+<p>				<img src="http://jquery.com/blog/wp-content/uploads/2008/09/bio_codylindley.jpg" width="76" height="76" alt="Cody Lindley" style="float: left; margin-right: 15px;" /></p>
+<p><strong><a href="http://www.codylindley.com/">Cody Lindley</a></strong> is a Christian, husband, son, brother, professional web developer, and outdoor enthusiast. He spends the majority of his time sleeping and working, but who doesn&#8217;t? In between the daily routines of the average American, he desires an existence that entails a relationship with God, family, and nature. He considers himself a bookworm and a novice theologian, but truth be told, he simply enjoys watching movies and playing Xbox way too much. He is thankful for the luxury of pursuing his profession as a personal passion. More details can be found about cody on his site codylindley.com.</p>
+</div>
+<div class="clearfix" style="clear: both;">
+<h5>Mike Alsup</h5>
+<p>				<img src="http://jquery.com/blog/wp-content/uploads/2008/09/bio_mikealsup.jpg" width="76" height="76" alt="Mike Alsup" style="float: left; margin-right: 15px;" /></p>
+<p><strong><a href="http://malsup.com/jquery/">Mike Alsup</a></strong> is a Senior Developer at Click Commerce in Rochester, NY.  He has been developing software solutions for 15 years with a current focus on Java, Swing, J2EE and web applictions.  Involved with the jQuery project since near its inception in early 2006, Mike has authored many popular plugins including the Form Plugin, BlockUI, Taconite and Cycle.</p>
+</div>
+<h3>Agenda:</h3>
+<p><style>th, td {padding: 5px; border: 1px solid #aaa; font-size: 1.2em;}</style></p>
+<table cellpadding="5" cellspacing="0">
+<tbody>
+<tr>
+<td>
+    </td>
+<th>
+      Beginner
+    </th>
+<th>
+      Advanced
+    </td>
+</tr>
+<tr>
+<td style="width:75px">
+      9:00 - 9:30
+    </td>
+<td colspan="2">
+<div style="text-align:center;">Registration, Breakfast</div>
+</td>
+</tr>
+<tr>
+<td style="width:75px">
+      9:30 - 9:55
+    </td>
+<td colspan="2">
+<div style="text-align:center;">State of jQuery - John Resig</div>
+</td>
+</tr>
+<tr>
+<td>
+      10:00 - 10:50
+    </td>
+<td>
+      Learning jQuery - Karl Swedberg
+    </td>
+<td>
+      Optimizing jQuery Core - John Resig
+    </td>
+</tr>
+<tr>
+<td>
+      11:00 - 11:50
+    </td>
+<td>
+      jQuery Case Studies - Cody Lindley<br />
+      and Jonathan Snook
+    </td>
+<td>
+      Writing Scalable jQuery Applications - Yehuda Katz
+    </td>
+</tr>
+<tr>
+<td>
+      12:00 - 1:00
+    </td>
+<td colspan="2">
+<div style="text-align:center">Lunch</div>
+</td>
+</tr>
+<tr>
+<td>
+      1:00 - 1:50
+    </td>
+<td>
+      Rich Interactivity, Simplified with jQuery UI - Richard Worth
+    </td>
+<td>
+      An In-Depth Look at jQuery UI - Paul Bakaus
+    </td>
+</tr>
+<tr>
+<td>
+      2:00 - 2:50
+    </td>
+<td>
+      Designing Reusable jQuery Components - Scott Jehl
+    </td>
+<td>
+      Desktop Applications with jQuery and Adobe AIR - Kevin Hoyt
+    </td>
+</tr>
+<tr>
+<td>
+      3:00 - 3:50
+    </td>
+<td>
+      Making the Case for jQuery - Jonathan Sharp
+    </td>
+<td>
+      Using jQuery in Firefox Extensions - Aza Raskin
+    </td>
+</tr>
+<tr>
+<td>
+      4:00 - 4:50
+    </td>
+<td>
+      Your First jQuery Plugin - Mike Alsup
+    </td>
+<td>
+      Building Robust jQuery Plugins - Joern Zaefferer
+    </td>
+</tr>
+<tr>
+<td>
+      5:00 - 6:00
+    </td>
+<td colspan="2">
+<div style="text-align:center">Dinner</div>
+</td>
+</tr>
+<tr>
+<td>
+      Later
+    </td>
+<td colspan="2">
+<div style="text-align:center">Cambridge Brewing Company for drinks and socializing</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Full details of the individual sessions,  biographies of the speakers, and additional conference information is forthcoming.
+</p>
+]]></content:encoded>
+			<wfw:commentRSS>http://jquery.com/blog/2008/08/31/jquery-conference-2008-agenda/feed/</wfw:commentRSS>
+		</item>
+		<item>
+		<title>Death to JavaScript Rock Stars!</title>
+		<link>http://jquery.com/blog/2008/08/29/death-to-javascript-rock-stars/</link>
+		<comments>http://jquery.com/blog/2008/08/29/death-to-javascript-rock-stars/#comments</comments>
+		<pubDate>Sat, 30 Aug 2008 00:22:25 +0000</pubDate>
+		<dc:creator>John Resig</dc:creator>
+		
+	<category>Uncategorized</category>
+		<guid isPermaLink="false">http://jquery.com/blog/2008/08/29/death-to-javascript-rock-stars/</guid>
+		<description><![CDATA[We&#8217;ve been listening to your feedback today, about the new jQuery site redesign and one thing has become clear:
+
+Death to JavaScript Rock Stars!
+
+Poor dude didn&#8217;t even last 24 hours. We wanted to have some fun with the home page, but this bordered on a little too &#8220;extreme&#8221; for most tastes.
+We plan on bringing some further [...]]]></description>
+			<content:encoded><![CDATA[<p>We&#8217;ve been listening to <a href="http://jquery.com/blog/2008/08/29/jquerycom-site-redesign/">your</a> <a href="http://jquery.com/blog/2008/08/29/jquery-site-redesign-the-community-speaks/">feedback</a> today, about the new jQuery site redesign and one thing has become clear:</p>
+<p><center><br />
+<h3>Death to JavaScript Rock Stars!</h3>
+<p></center></p>
+<p>Poor dude didn&#8217;t even last 24 hours. We wanted to have some fun with the home page, but this bordered on a little too &#8220;extreme&#8221; for most tastes.</p>
+<p>We plan on bringing some further revisions to the homepage in the future, but in the meantime here&#8217;s a quick overhaul, put together by the always-excellent <a href="http://www.scottjehl.com/v7/">Scott Jehl</a>, that&#8217;ll help tide everyone over:</p>
+<p><center><a href="http://jquery.com/"><img id="image207" src="http://jquery.com/blog/wp-content/uploads/2008/08/jqueryhome.png" alt="jQuery Homepage" /></a></center></p>
+<p>As a token of our appreciation for sticking with the &#8220;JavaScript Rock Star&#8221; for a day we&#8217;ve included a little Easter Egg in the new site. It would be useful if you knew the <a href="http://en.wikipedia.org/wiki/Konami_Code">Konami Code</a>.</p>
+<p>Naturally, the whole redesign still has many tweaks that&#8217;ll be made over the next couple weeks, especially to individual page fonts, font sizes, and colors.</p>
+<p>I want to, once again, thank Scott Jehl for all the hard work that he&#8217;s been putting in to the site design - and the excellent Varick Rosete (of <a href="http://www.ngenworks.com/">nGenWorks</a> and <a href="http://www.happywebbies.com">Happy Webbies</a>) for the great illustration that he drew for us.</p>
+<p>Here&#8217;s to many happy days of rockin&#8217; out with jQuery!
+</p>
+]]></content:encoded>
+			<wfw:commentRSS>http://jquery.com/blog/2008/08/29/death-to-javascript-rock-stars/feed/</wfw:commentRSS>
+		</item>
+		<item>
+		<title>jQuery Site Redesign - The Community Speaks</title>
+		<link>http://jquery.com/blog/2008/08/29/jquery-site-redesign-the-community-speaks/</link>
+		<comments>http://jquery.com/blog/2008/08/29/jquery-site-redesign-the-community-speaks/#comments</comments>
+		<pubDate>Fri, 29 Aug 2008 14:39:19 +0000</pubDate>
+		<dc:creator>ReyBango</dc:creator>
+		
+	<category>jQuery</category>
+		<guid isPermaLink="false">http://jquery.com/blog/2008/08/29/jquery-site-redesign-the-community-speaks/</guid>
+		<description><![CDATA[As many of you have seen by now, the jQuery Project&#8217;s site has been redesigned. It had been a long overdue task and it was important to put a fresh new spin on the main hub, and the face, of jQuery. One of the things about the jQuery Project is that we&#8217;ve never run with [...]]]></description>
+			<content:encoded><![CDATA[<p>As many of you have seen by now, the jQuery Project&#8217;s site has been redesigned. It had been a long overdue task and it was important to put a fresh new spin on the main hub, and the face, of jQuery. One of the things about the jQuery Project is that we&#8217;ve never run with the crowd or accepted the norm. By pushing boundaries and sometimes being &#8220;in your face&#8221; we&#8217;ve not only grown tremendously in popularity but we&#8217;ve pushed most of the other JS library projects to rethink their own principles and make changes to improve their products. That&#8217;s a good thing for everyone as competition is always good.</p>
+<p>So, it should come as no surprise by the drastic change in the jQuery website. So far, the single biggest complaint has been associated with the new banner (ie: rockstar caricature &#038; slogan). Again, we wanted to push the boundaries and come up with something that would generate a lot of buzz. Overall, we&#8217;ve succeeded in that goal with plenty of positive feedback but unfortunately, with some very negative comments as well. We actually value both types of feedback and want more as it&#8217;s the only way to determine if we&#8217;re on the right track. As with any site redesign, you can&#8217;t please everyone and we understand that. But we also want everyone to realize that this is a first cut and it doesn&#8217;t mean that it can&#8217;t be tweaked.</p>
+<p>We&#8217;re actively reviewing all of the feedback and will certainly be looking at how to best handle some of the concerns of the community. After all, the community is what makes the jQuery Project so special and so different from other projects. In addition, the jQuery team has always listened to the needs of the community and this time is no exception. Again, I think the team is unique in that we *DO LISTEN* to the community and we&#8217;re going to work on making the site an invaluable tool for everyone. So just give us some time to go through the messages and keep an eye on this blog for updates.<br />
+Thanks for your patience and we truly appreciate your feedback.
+</p>
+]]></content:encoded>
+			<wfw:commentRSS>http://jquery.com/blog/2008/08/29/jquery-site-redesign-the-community-speaks/feed/</wfw:commentRSS>
+		</item>
+		<item>
+		<title>jQuery.com Site Redesign</title>
+		<link>http://jquery.com/blog/2008/08/29/jquerycom-site-redesign/</link>
+		<comments>http://jquery.com/blog/2008/08/29/jquerycom-site-redesign/#comments</comments>
+		<pubDate>Fri, 29 Aug 2008 06:25:08 +0000</pubDate>
+		<dc:creator>John Resig</dc:creator>
+		
+	<category>Uncategorized</category>
+		<guid isPermaLink="false">http://jquery.com/blog/2008/08/29/jquerycom-site-redesign/</guid>
+		<description><![CDATA[We&#8217;ve just pushed out a brand new site redesign (for jQuery.com and all its sub-sites). This has been a long time coming and it feels great to get it out the door.
+New Homepage
+
+Easily the most contentious part of the redesign - but absolutely the most eye-catching.
+jQuery has long been driven by rock, even looking back [...]]]></description>
+			<content:encoded><![CDATA[<p>We&#8217;ve just pushed out a brand new site redesign (for jQuery.com and all its sub-sites). This has been a long time coming and it feels great to get it out the door.</p>
+<h4>New Homepage</h4>
+<p><center><a href="http://jquery.com/"><img id="image202" src="http://jquery.com/blog/wp-content/uploads/2008/08/jquerycom.sm.png" alt="jQuery.com" /></a></center></p>
+<p>Easily the most contentious part of the redesign - but absolutely the most eye-catching.</p>
+<p>jQuery has long been driven by rock, even looking back to its <a href="http://web.archive.org/web/20060203025710/http://jquery.com/">original release</a> which was heavily inspired by the always-excellent <a href="http://en.wikipedia.org/wiki/Devo">Devo</a>. We shot for a catchy design that helped to bring JavaScript out of the cold doldrums that it frequently inhabits - giving it a serious jolt of fun.</p>
+<h4>New Site Layout</h4>
+<p><center><a href="http://docs.jquery.com/Traversing"><img id="image203" src="http://jquery.com/blog/wp-content/uploads/2008/08/jquerydocs.sm.png" alt="jQuery Docs" /></a></center></p>
+<p>The entirety of the site has a new layout. With drastically improved multi-layer navigation and a standardized sidebar it should become much easier to navigate the individual portions of the site.</p>
+<p>You should probably wear a hard hat while exploring the interior pages - font sizes, spacing, and colors are all in need of tweaking, which will be handled over the upcoming week (it&#8217;s fun working against Trac, Wordpress, Drupal, and Mediawiki simultaneously).</p>
+<h4>New Logo</h4>
+<p><center><img id="image204" src="http://jquery.com/blog/wp-content/uploads/2008/08/jquerylogo.png" alt="jQuery Logo" /></center></p>
+<p>The original jQuery logo was a variation of the Devo hat - we&#8217;ve taken that concept, turned it on its ear, and made it something that we can call our own - while still being inspired by the original contours of the <a href="http://en.wikipedia.org/wiki/Energy_Dome">Devo Energy Dome</a>.</p>
+<h4>Thanks</h4>
+<p>Site and Logo Design: <a href="http://scottjehl.com/">Scott Jehl</a> - he put a fantastic amount of work into this redesign, bringing it all the way from conception to final implementation.</p>
+<p>Rockin&#8217; Illustration: Varick Rosete from <a href="http://www.ngenworks.com/">nGenWorks</a> also of <a href="http://www.happywebbies.com">Happy Webbies</a> fame.</p>
+<p>Initial Logo Prototyping: <a href="http://bradleysepos.com/blog/">Bradley Sepos</a>.</p>
+<p>Also want to thank <a href="http://mediatemple.net/">Media Temple</a> for our hosting. They&#8217;ve been helping us a lot this past week migrating our sites to some new servers - expect some speed improvements for the sub-domains very soon.
+</p>
+]]></content:encoded>
+			<wfw:commentRSS>http://jquery.com/blog/2008/08/29/jquerycom-site-redesign/feed/</wfw:commentRSS>
+		</item>
+		<item>
+		<title>Registration Open for jQuery Conference 2008</title>
+		<link>http://jquery.com/blog/2008/08/15/registration-open-for-jquery-conference-2008/</link>
+		<comments>http://jquery.com/blog/2008/08/15/registration-open-for-jquery-conference-2008/#comments</comments>
+		<pubDate>Fri, 15 Aug 2008 11:35:55 +0000</pubDate>
+		<dc:creator>Karl Swedberg</dc:creator>
+		
+	<category>jQuery</category>
+		<guid isPermaLink="false">http://jquery.com/blog/2008/08/15/registration-open-for-jquery-conference-2008/</guid>
+		<description><![CDATA[Registration for jQuery Conference 2008 is officially open. Register now to ensure your spot!
+As announced, this one-day conference will be held in Boston on Sunday, September 28, and will feature two tracks of presentations (beginner and advanced) from jQuery project members and a few special guest speakers. A registration fee of $50 will help cover [...]]]></description>
+			<content:encoded><![CDATA[<p>Registration for jQuery Conference 2008 is officially open. <a href="http://events.jquery.com/">Register now</a> to ensure your spot!<br />
+As <a href="http://jquery.com/blog/2008/06/26/jquery-camp-2008-announced/">announced</a>, this one-day conference will be held in <strong>Boston</strong> on <strong>Sunday, September 28</strong>, and will feature two tracks of presentations (beginner and advanced) from jQuery project members and a few special guest speakers. A registration fee of <strong>$50</strong> will help cover the cost of the venue, as well as food, beverages, and T-shirts for all attendees.</p>
+<p>We&#8217;re finalizing a convenient venue, especially for those who will be attending <a href="http://ajaxexperience.techtarget.com/east/">The Ajax Experience</a> conference the following Monday through Wednesday. We&#8217;re still firming up the agenda as well, but you can expect this to be a blow-out event.</p>
+<p>If you have any questions, please feel free to contact us at <i>events [at] learningjquery.com</i>
+</p>
+]]></content:encoded>
+			<wfw:commentRSS>http://jquery.com/blog/2008/08/15/registration-open-for-jquery-conference-2008/feed/</wfw:commentRSS>
+		</item>
+		<item>
+		<title>jQuery UI 1.5.2</title>
+		<link>http://jquery.com/blog/2008/07/14/jquery-ui-152/</link>
+		<comments>http://jquery.com/blog/2008/07/14/jquery-ui-152/#comments</comments>
+		<pubDate>Mon, 14 Jul 2008 18:16:00 +0000</pubDate>
+		<dc:creator>Paul</dc:creator>
+		
+	<category>Uncategorized</category>
+		<guid isPermaLink="false">http://jquery.com/blog/2008/07/14/jquery-ui-152/</guid>
+		<description><![CDATA[About 4 days ago, many have noticed that we had uploaded another minor bugfix release to our Google Code account. While there&#8217;s, again, no new API introduced, more than 30 issues have been cleared and the codebase is growing more stable every day.
+The full changelog is available here if you want to find out if [...]]]></description>
+			<content:encoded><![CDATA[<p>About 4 days ago, many have noticed that we had uploaded another minor bugfix release to our Google Code account. While there&#8217;s, again, no new API introduced, more than 30 issues have been cleared and the codebase is growing more stable every day.</p>
+<p>The full changelog is available <a href="http://docs.jquery.com/UI/Changelog/1.5.2">here</a> if you want to find out if a specific issue has been addressed. As with 1.5.1, updating to this version is highly recommended and likely not to break anything in your written code.</p>
+<p>You can grab the latest release as always via the downloader or as developer package at <a href="http://ui.jquery.com/download">http://ui.jquery.com/download</a> or if you prefer, get it as latest tag from Subversion.</p>
+<p>As a last comment, this is probably the last minor release before 1.6, which we will announce before the end of July, so watch out for a couple of awesome new components and enhancements soon!</p>
+<p>Have a nice day,</p>
+<p>Paul Bakaus &#038; the jQuery UI Team
+</p>
+]]></content:encoded>
+			<wfw:commentRSS>http://jquery.com/blog/2008/07/14/jquery-ui-152/feed/</wfw:commentRSS>
+		</item>
+		<item>
+		<title>jQuery UI 1.5.1</title>
+		<link>http://jquery.com/blog/2008/06/27/jquery-ui-151/</link>
+		<comments>http://jquery.com/blog/2008/06/27/jquery-ui-151/#comments</comments>
+		<pubDate>Fri, 27 Jun 2008 18:19:50 +0000</pubDate>
+		<dc:creator>Paul</dc:creator>
+		
+	<category>Uncategorized</category>
+		<guid isPermaLink="false">http://jquery.com/blog/2008/06/27/jquery-ui-151/</guid>
+		<description><![CDATA[Soon after the release of jQuery UI 1.5, we were getting many useful feedback and issues entered in our bugtracker. Today, we&#8217;re happy to release another version of jQuery UI which takes care of many minor regressions and a lot of unsolved issues. 
+1.5.1 doesn&#8217;t add any new features or API changes, but fixes more [...]]]></description>
+			<content:encoded><![CDATA[<p>Soon after the release of jQuery UI 1.5, we were getting many useful feedback and issues entered in our bugtracker. Today, we&#8217;re happy to release another version of jQuery UI which takes care of many minor regressions and a lot of unsolved issues. </p>
+<p>1.5.1 doesn&#8217;t add any new features or API changes, but fixes more than 50 found issues. A <a href="http://docs.jquery.com/UI/Changelog/1.5.1">full changelog</a> is available, if you want to know the specifics. Updating to this version is highly recommended and likely not to break anything in your written code.</p>
+<p>Additionally, issues within ThemeRoller and the demos on our homepage also have been reported and fixed. We are now continuing to finish all unit tests and functional demos, so expect to see another release of both UI and its website soon again.</p>
+<p>You can grab the latest release as always via the downloader or as developer package at <a href="http://ui.jquery.com/download">http://ui.jquery.com/download</a> or if you prefer, get it as latest tag from Subversion.</p>
+<p>See you soon,</p>
+<p>Paul Bakaus &#038; the jQuery UI Team
+</p>
+]]></content:encoded>
+			<wfw:commentRSS>http://jquery.com/blog/2008/06/27/jquery-ui-151/feed/</wfw:commentRSS>
+		</item>
+		<item>
+		<title>jQuery Camp 2008 Announced</title>
+		<link>http://jquery.com/blog/2008/06/26/jquery-camp-2008-announced/</link>
+		<comments>http://jquery.com/blog/2008/06/26/jquery-camp-2008-announced/#comments</comments>
+		<pubDate>Thu, 26 Jun 2008 14:49:26 +0000</pubDate>
+		<dc:creator>ReyBango</dc:creator>
+		
+	<category>jQuery</category>
+		<guid isPermaLink="false">http://jquery.com/blog/2008/06/26/jquery-camp-2008-announced/</guid>
+		<description><![CDATA[The jQuery Team is pleased to announce the second annual jQuery Camp!  jQuery Camp 2008 will be held on Sunday, Sept. 28, the day before The  Ajax Experience, in Boston, MA (location TBA).
+Last year, over 100 jQuery developers gathered for a full day of jQuery  sessions, which included talks from such big [...]]]></description>
+			<content:encoded><![CDATA[<p>The jQuery Team is pleased to announce the second annual jQuery Camp!  <strong>jQuery Camp 2008</strong> will be held on <strong>Sunday, Sept. 28</strong>, the day before The  Ajax Experience, in Boston, MA (location TBA).</p>
+<p>Last year, over 100 jQuery developers gathered for a full day of jQuery  sessions, which included talks from such big names as jQuery creator  John Resig and other core team members, as well as talks from expert  users exploring new and exciting jQuery projects. It brought together  the largest group of jQuery Core Team members ever assembled, and gave  users the opportunity to pick their brains and pitch new ideas.</p>
+<p>The event was a <strong class="moz-txt-star"><span class="moz-txt-tag">*</span>clear<span class="moz-txt-tag">*</span></strong> success, and this year&#8217;s camp promises to be  even better.</p>
+<p>jQuery Camp 2008 will offer two tracks, providing both introductory and  advanced sessions, covering a variety of topics. Ajax development, mashups, security and the recently released jQuery UI  component and effects library are just some of the topics already lined up.</p>
+<p>jQuery Camp 2008 will charge a nominal fee of $50 per person, which will  include lunch. Attendees need NOT be registered for The Ajax Experience  to attend. <strong>Registration will open in July</strong>; keep an eye on jQuery.com for  more details!</p>
+<p>For those attending The Ajax Experience, show organizers have recently  announced a half-day time slot for additional jQuery sessions, on  September 29th at the conference center. The agenda is still up in the  air, but we&#8217;re thinking of offering a &#8220;Dream Team Code Review&#8221; session,  where users can have code reviewed by members of the jQuery team. We&#8217;re  interested in your feedback; would you attend this session?</p>
+<p>jQuery Camp 2008 is a truly fantastic opportunity to learn from the  jQuery team and socialize with top jQuery developers; we&#8217;re looking  forward to meeting everyone!</p>
+<p>See you all in September.
+</p>
+]]></content:encoded>
+			<wfw:commentRSS>http://jquery.com/blog/2008/06/26/jquery-camp-2008-announced/feed/</wfw:commentRSS>
+		</item>
+	<feedburner:awareness xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">http://api.feedburner.com/awareness/1.0/GetFeedData?uri=jquery</feedburner:awareness></channel>
+</rss>

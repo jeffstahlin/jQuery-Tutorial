@@ -14,3 +14,9 @@ $(document).ready(function() {
 $('a').filter(function() {
 	return this.hostname && this.hostname != location.hostname;
 }).addClass('external');
+
+$(document).ready(function() {
+	$('#selected-plays ul').children().addClass('special');
+	$('td:nth-child(3)').addClass('year');
+	$('td:contains(Tragedy):first').parent().addClass('special');
+});

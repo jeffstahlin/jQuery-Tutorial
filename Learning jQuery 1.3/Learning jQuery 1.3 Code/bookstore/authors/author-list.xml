@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<authors>
+  <author first-name="Benjamin" last-name="Swedberg">
+    <book>no title yet</book>
+    <bio>
+    </bio>
+    <image>xxx.jpg</image>
+  </author>
+  <author first-name="Lucia" last-name="Swedberg" featured="true">
+   <book>Lucy Plays at Zoe's House</book>
+    <bio>some bio information will go here
+    </bio>
+    <image>xxx.jpg</image>
+  </author>
+  <author first-name="Rey" last-name="Bango" featured="true">
+    <book>Real World ColdFusion and Ajax</book>
+    <bio>Rey Bango is a consultant living in South Florida. With more than 18 years of industry experience, he has had the opportunity to develop applications for a wide spectrum of businesses using a variety of technologies. He has been developing web applications for the last 8 years using ColdFusion and has become very involved in the development of Rich Internet Applications using Ajax.
+    </bio>
+    <image>rey_250.jpg</image>
+  </author>
+</authors>
